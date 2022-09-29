@@ -1,0 +1,19 @@
+12:09:45 **** Incremental Build of configuration Debug for project HWweek2OO1 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o Driehoek.o "..\\Driehoek.cpp" 
+..\Driehoek.cpp:11:1: error: no declaration matches 'Driehoek::Driehoek()'
+ Driehoek::Driehoek() {
+ ^~~~~~~~
+In file included from ..\Driehoek.cpp:8:
+..\Driehoek.h:15:7: note: candidates are: 'constexpr Driehoek::Driehoek(const Driehoek&)'
+ class Driehoek : Vorm {
+       ^~~~~~~~
+..\Driehoek.h:19:2: note:                 'Driehoek::Driehoek(double, double)'
+  Driehoek(double breedte, double hoogte);
+  ^~~~~~~~
+..\Driehoek.h:15:7: note: 'class Driehoek' defined here
+ class Driehoek : Vorm {
+       ^~~~~~~~
+
+12:09:45 Build Failed. 1 errors, 0 warnings. (took 359ms)
+

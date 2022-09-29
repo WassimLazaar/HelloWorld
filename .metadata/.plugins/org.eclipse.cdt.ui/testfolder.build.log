@@ -1,0 +1,7 @@
+02:35:43 **** Incremental Build of configuration Debug for project testfolder ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.cpp" 
+g++ -o testfolder.exe main.o 
+
+02:35:44 Build Finished. 0 errors, 0 warnings. (took 894ms)
+
