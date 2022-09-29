@@ -1,7 +1,7 @@
-11:49:28 **** Incremental Build of configuration Debug for project Hello_World_SWEN1 ****
+11:58:44 **** Incremental Build of configuration Debug for project Hello_World_SWEN1 ****
 Info: Internal Builder is used for build
 gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
 gcc -o Hello_World_SWEN1.exe main.o 
 
-11:49:29 Build Finished. 0 errors, 0 warnings. (took 612ms)
+11:58:45 Build Finished. 0 errors, 0 warnings. (took 309ms)
 
