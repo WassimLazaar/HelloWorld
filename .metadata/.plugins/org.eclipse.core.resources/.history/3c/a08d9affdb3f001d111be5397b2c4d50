@@ -7,7 +7,7 @@
 #include <stdio.h>
 int main()
 {
-	printf("Hello, Galaxy!"); //person 1 (wassim)
+   printf("Hello, World!");
    return 0;
 }
 
